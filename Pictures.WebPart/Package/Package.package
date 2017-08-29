@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="49ed146f-bd66-4ec1-b885-acd95ad96bc7" solutionId="49ed146f-bd66-4ec1-b885-acd95ad96bc7" resetWebServer="false" sharePointProductVersion="15.0" name="Pictures.WebPart" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="Pictures.Tools.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Pictures.Tools\Pictures.Tools.csproj">
+      <safeControls>
+        <safeControl assemblyName="Pictures.Tools" namespaceName="Pictures.Tools" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="e8454b77-d63a-4859-a394-eace10dd84f9" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="4b71d507-b204-438d-b675-9571e4746138" />
+  </projectItems>
+</package>

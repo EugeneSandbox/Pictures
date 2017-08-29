@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pictures.WcfService", "Pictures.WcfService\Pictures.WcfService.csproj", "{4016A6BB-B5FC-455D-8384-31ED2026C0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pictures.DAL", "Pictures.DAL\Pictures.DAL.csproj", "{5E51C27A-0576-4761-ADA0-2E795E57D000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pictures.Tools", "Pictures.Tools\Pictures.Tools.csproj", "{264B8583-0EC2-4AEF-A609-4C7667F59A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pictures.FilesLoader", "Pictures.FilesLoader\Pictures.FilesLoader.csproj", "{AB48281E-FC6B-40FC-AE98-BFC7C0424F01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4016A6BB-B5FC-455D-8384-31ED2026C0E3} = {4016A6BB-B5FC-455D-8384-31ED2026C0E3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pictures.WebPart", "Pictures.WebPart\Pictures.WebPart.csproj", "{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4016A6BB-B5FC-455D-8384-31ED2026C0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4016A6BB-B5FC-455D-8384-31ED2026C0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4016A6BB-B5FC-455D-8384-31ED2026C0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4016A6BB-B5FC-455D-8384-31ED2026C0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E51C27A-0576-4761-ADA0-2E795E57D000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E51C27A-0576-4761-ADA0-2E795E57D000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E51C27A-0576-4761-ADA0-2E795E57D000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E51C27A-0576-4761-ADA0-2E795E57D000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264B8583-0EC2-4AEF-A609-4C7667F59A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264B8583-0EC2-4AEF-A609-4C7667F59A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264B8583-0EC2-4AEF-A609-4C7667F59A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264B8583-0EC2-4AEF-A609-4C7667F59A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB48281E-FC6B-40FC-AE98-BFC7C0424F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB48281E-FC6B-40FC-AE98-BFC7C0424F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB48281E-FC6B-40FC-AE98-BFC7C0424F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB48281E-FC6B-40FC-AE98-BFC7C0424F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9703ECF6-02A6-4735-BEC0-928B0DAFACF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
